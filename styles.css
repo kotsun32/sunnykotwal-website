@@ -366,6 +366,61 @@ body {
     color: #666;
 }
 
+/* Law AI Advisor Highlight */
+.law-ai-highlight {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 60px 0;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.highlight-content {
+    text-align: center;
+    color: white;
+}
+
+.highlight-icon {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.highlight-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: white;
+}
+
+.highlight-description {
+    font-size: 18px;
+    margin-bottom: 32px;
+    opacity: 0.9;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+}
+
+.highlight-cta {
+    display: inline-block;
+    background: #ff6719;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(255, 103, 25, 0.3);
+}
+
+.highlight-cta:hover {
+    background: #e55a16;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 103, 25, 0.4);
+    text-decoration: none;
+    color: white;
+}
+
 /* Footer */
 .footer {
     background: #f8f8f8;
@@ -428,6 +483,18 @@ body {
     
     .contact-links {
         gap: 16px;
+    }
+    
+    .law-ai-highlight {
+        padding: 40px 0;
+    }
+    
+    .highlight-title {
+        font-size: 28px;
+    }
+    
+    .highlight-description {
+        font-size: 16px;
     }
 }
 
