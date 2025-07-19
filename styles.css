@@ -295,6 +295,12 @@ body {
     font-weight: 500;
 }
 
+.post-authors {
+    color: #0066cc;
+    font-size: 14px;
+    font-weight: 500;
+}
+
 .post-title {
     font-size: 24px;
     font-weight: 600;
